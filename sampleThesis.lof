@@ -1,0 +1,53 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Flash memory cell based on a floating gate transistor.}}{10}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Thermal noise in Flash memory (time domain).}}{14}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces RTN with thermal noise in Flash memory. (a) Time domain. (b) Moving average of 29 points on the time domain.}}{16}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces RTN in Flash memory (time domain).}}{17}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces (a) Distribution of time in the programmed state. (b) Distribution of time in the erased state.}}{18}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Overall Flash RNG algorithm}}{19}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Determine whether there is RTN in a bit}}{19}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Program selected bits to proper levels where RTN could be observed.}}{20}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Convert the raw data to binary random sequence.}}{21}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Flash test board.}}{23}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces NIST test suite results for bits with RTN and thermal noise.}}{27}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Throughputs under room temperature.}}{30}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Throughput at -5 °C.}}{31}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Throughputs at -80 °C.}}{31}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Extract the order in which bits in a page reach the programmed state.}}{37}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Scatter plot for fingerprints extracted on (a) the same page and (b) different chips.}}{39}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Generate a binary signature from the partial programming order information.}}{40}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Histogram of correlation coefficients for pages compared to the same page on a different chip (total 66,240 comparisons).}}{42}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Histogram of correlation coefficients for every page compared to every other page at room temp (total 1,656,000 comparisons).}}{42}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Histogram of correlation coefficients for all intra-chip comparisons (total 25,920 comparisons).}}{43}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Average, minimum, and maximum correlation coefficients for intra-chip comparisons between different ambient temperatures.}}{46}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Average, minimum, and maximum correlation coefficients for comparisons between fresh and stressed Flash.}}{46}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Device authentication through a challenge-response protocol.}}{50}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces The overview of the information hiding operation.}}{54}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Raw partial program number for each bit in an example page.}}{56}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Partial program time distribution for bits in a page.}}{57}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces The distribution of the average program time of a group with a correct key.}}{59}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces The distribution of the average program time of a incorrect group.}}{60}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces An algorithm to encode (hide) a payload into Flash memory program time.}}{61}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces An algorithm to decode (recover) a payload from Flash memory program time.}}{63}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Flash test board.}}{65}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Influence of hiding stress on BER.}}{67}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Influence of group size on BER.}}{68}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Influence of page interval on BER.}}{69}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Influence of initial stress level on BER.}}{70}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Program time for pages within a block.}}{76}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Program time histogram for three stress levels.}}{77}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Erase time for 20 blocks within a chip.}}{78}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Erase time histogram for three stress levels (across 4 chips).}}{79}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces SVM accuracy for detecting hidden information (per-page analysis).}}{80}
+\contentsline {figure}{\numberline {5.18}{\ignorespaces SVM accuracy for detecting hidden information (per-block analysis).}}{81}
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Partial program number distribution curve averaged over 5 blocks.}}{84}
+\contentsline {figure}{\numberline {5.20}{\ignorespaces SVM accuracy for detecting pages with hidden information (using raw data).}}{86}
+\contentsline {figure}{\numberline {5.21}{\ignorespaces SVM accuracy for detecting pages with hidden information (using statistical moments).}}{86}
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Receiver operating characteristic curve for data set including 2500 hiding PE and 128 normal PE stresses.}}{87}
+\contentsline {figure}{\numberline {5.23}{\ignorespaces BER as a function of the percentage of correct group members.}}{88}
+\contentsline {figure}{\numberline {5.24}{\ignorespaces Influence of post hiding PE cycles.}}{90}
+\addvspace {10\p@ }

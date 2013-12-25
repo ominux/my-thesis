@@ -1,0 +1,37 @@
+
+%\begin{scriptsize}
+\begin{center}
+
+\begin{tabular}{|c|}
+\hline
+\begin{minipage}[t]{3.2in}
+
+
+
+\begin{tabbing}
+{\bf Algorithm IV Convert the raw data to binary random sequence. }
+\\
+\\ {\bf If} \= the bit has both RTN and thermal noise
+\\ \> {\bf For} \= each up/down-time in raw data
+\\ \>\>   Output = LSB(up/down-time);
+\\ \> {\bf End for}
+\\ {\bf End if}
+\\
+\\ {\bf If} \= the bit has only RTN
+\\ \> {\bf do} \= \{
+\\ \>\> {\bf For} \= each up/down-time in raw data
+\\ \>\>\>    Output = LSB(up/down-time);
+\\ \>\>\>    Shift right up/down-time by one bit;
+\\ \>\> {\bf End for}
+\\ \> \} repeat until all up/down time are zero;
+\\ {\bf End if}
+\\
+\\Perform von Neumann de-biasing
+
+
+\end{tabbing}
+\end{minipage}
+\\ \hline
+\end{tabular}
+\end{center}
+%\end{scriptsize}

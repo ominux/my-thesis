@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: sampleThesis.aux
+The style file: unsrt.bst
+Database file #1: sampleThesis.bib
+I was expecting a `,' or a `}'---line 130 of file sampleThesis.bib
+ :       
+ :       note = "http://sosfakeflash.wordpress.com/",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You've used 41 entries,
+            1791 wiz_defined-function locations,
+            658 strings with 11292 characters,
+and the built_in function-call counts, 9201 in all, are:
+= -- 766
+> -- 474
+< -- 8
++ -- 174
+- -- 133
+* -- 550
+:= -- 1447
+add.period$ -- 126
+call.type$ -- 41
+change.case$ -- 41
+chr.to.int$ -- 0
+cite$ -- 41
+duplicate$ -- 443
+empty$ -- 947
+format.name$ -- 133
+if$ -- 2095
+int.to.chr$ -- 0
+int.to.str$ -- 41
+missing$ -- 34
+newline$ -- 203
+num.names$ -- 39
+pop$ -- 179
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 200
+stack$ -- 0
+substring$ -- 420
+swap$ -- 108
+text.length$ -- 8
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 77
+width$ -- 43
+write$ -- 429
+(There was 1 error message)

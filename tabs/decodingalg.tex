@@ -1,0 +1,77 @@
+
+\begin{footnotesize}
+\begin{center}
+
+
+
+\begin{tabular}{|c|}
+\hline
+\begin{minipage}[t]{3.2in}
+\begin{tabbing}
+
+{\bf Algorithm II: Decoding }
+\\
+\\\emph{Part A -- Reading the program time from Flash}
+\\1 Fo\=r each selected block
+\\2 \>Erase the block
+\\3 \>Program every bit in the block to 0
+\\4 \>Erase the block 
+\\5 \>Fo\=r each selected page
+\\6 \>\>Fo\=r $i=1,2, ..., M$  %(at least half of bits should flip after M iterations)
+\\7 \>\>\>  Partial program the page to 0 (abort a program operation after time $T$)
+\\8 \>\>\>  Read the page
+\\9 \>\>\>  Fo\=r each bit in the page
+\\10 \>\>\>\>If\=\ the bit changed from 1 to 0
+\\11 \>\>\>\>\>   Set $program time$ for this bit to $i$
+\\12 \>\>\>\>End if
+\\13 \>\>\>End for
+\\14 \>\>End for
+\\15 \>\>Fo\=r each bit
+\\16 \>\>\>If\=\ the bit did not flip
+\\17 \>\>\>\>Set its $program time$ to be $M+1$ 
+\\18 \>\>\>End if
+\\19 \>\>End for
+\\20 \>End for
+\\21 \>Erase the block
+\\22 End for
+\\
+\\\emph{Part B -- Extracting the payload message}
+\\1 Fo\=r each selected block
+\\2 \>Fo\=r each selected page
+\\3 \>\>Calculate the median $X$ of the program times for all the bits
+\\4 \>\>Fo\=r each bit
+\\5 \>\>\>If its $programtime > (X/2)$
+\\6 \>\>\>\>Set $program time$ to 1
+\\7 \>\>\>Else
+\\8 \>\>\>\>Set $program time$ to 0
+\\9 \>\>\>End if
+\\10 \>\>End for
+
+\\11 \>\>Generate the group for each message bit with the page hiding key
+\\12 \>\>For each group
+\\13 \>\>\>Calculate the average program time for the group
+\\14 \>\>\>If the average is less than $Th$
+\\15 \>\>\>\>Recover the message bit: 1
+\\16 \>\>\>Else
+\\17 \>\>\>\>Recover the message bit: 0
+\\18 \>\>\>End if
+\\19 \>\>End for
+
+%\\15 \>\>If the number of Hiding PE cycles $N < 2500$
+%\\16 \>\>\>threshold $Th$ = fixed value $Th_f$
+%\\17 \>\>Else
+%\\18 \>\>\>sort the average program times
+%\\19 \>\>\>find the maximum interval for the sorted program times
+%\\20 \>\>\>threshold $Th$ = middle point of the maximum interval
+%\\21 \>\>End if
+%\\22 \>\>For each group
+%\\28 \>\>End for
+
+\\20 \>End for
+\\21 End for
+\end{tabbing}
+\end{minipage}
+\\ \hline
+\end{tabular}
+\end{center}
+\end{footnotesize}

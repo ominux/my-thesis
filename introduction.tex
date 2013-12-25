@@ -1,0 +1,169 @@
+\chapter{Introduction}
+
+\section{Overview}
+Flash memory has gained a ubiquitous place in the computing landscape today. 
+Virtually all mobile devices such as smartphones and tablets rely on Flash 
+memory as their non-volatile storage. Flash memory is also moving into laptop 
+and desktop computers, intending to replace the mechanical hard drive. 
+Floating-gate non-volatile memory is even more broadly used in electronic 
+applications with a small amount of non-volatile memory. For example, even 
+8-bit or 16-bit microcontrollers for embedded systems commonly have on-chip 
+EEPROMs to store instructions and data. Many people also carry Flash memory 
+as standalone storage medium as in USB memory sticks and SD cards.
+
+In this paper, we propose to utilize analog behaviors of off-the-shelf Flash 
+memory to enable hardware-based security functions in a wide range of electronic 
+devices without requiring custom hardware. More specifically, we show that a 
+standard Flash memory interface can be used to generate true random numbers 
+from quantum and thermal noises and to produce device fingerprints based on 
+manufacturing variations.
+This paper also introduces a technique to hide information in analog characteristics 
+of Flash memory in a way that the hidden bits are not visible at all from the viewpoint of normal 
+Flash memory content. Our technique encodes a hidden bit in the program
+time of a group of Flash cells; a fast program time encodes bit '1' and a slow program time 
+encodes bit '0'. We found that writing 0 into a Flash cell incurs more 
+stress on the cell than writing 1, which in turn results in a larger decrease in
+the program time of the corresponding cell. While the program time of individual cells cannot
+be accurately controlled, our experiments demonstrate that bits can be reliably encoded
+in the program time using many cells collectively.
+The techniques can be applied to any floating-gate 
+non-volatile memory in general, and does not require any hardware modifications 
+to today’s Flash memory chips, allowing them to be widely deployed.
+
+\section{Quantum Random Number Generation}
+Hardware random number generators (RNGs) provides important foundations 
+in building secure systems. For example, true randomness is a critical 
+ingredient in many cryptographic primitives and security protocols; random 
+numbers are often required to generate secret keys or prevent replays in 
+communications. While pseudo-random number generators are often used in today’s 
+systems, they cannot provide true randomness if a seed is reused or predictable. 
+As an example, a recent study showed that reuse of virtual machine (VM) snapshots 
+can break the Transport Level Security (TLS) protocol due to predictable random 
+numbers \cite{ristenpart2010good}. Given the importance of a good source of randomness, high security 
+systems typically rely on hardware RNGs.
+Instead of requiring custom hardware modules for RNGs, we found that analog 
+noise in Flash memory bits can be used to reliably generate true random numbers. 
+An interesting finding is that the standard Flash chip interface can be used to 
+put a memory bit in partially programmed state so that the internal noise can be 
+observed through the digital interface. There exist two sources of true randomness 
+in Flash bits, Random Telegraph Noise (RTN) and thermal noise. While both sources 
+can be leveraged for RNGs, our scheme focuses on RTN, which is quantum noise. Unlike 
+thermal noise, which can be reduced significantly at extremely low temperatures, 
+RTN behavior continues at all temperature ranges. Moreover, the quantum uncertainty 
+nature of RTN provides a better entropy source than system level noises which rely 
+on the difficulty of modeling complex yet deterministic systems. Our algorithm 
+automatically selects bits with RTN behavior and converts RTN into random binary bits.
+Experimental results demonstrate that the RTN behavior exists in Flash memory and 
+can be converted into random numbers through the standard Flash interface. The 
+Flash-based RNG is tested using the NIST test suite \cite{rukhin2001statistical} and is shown to 
+pass all tests successfully. Moreover, we found that the RNG works even 
+at a very low temperature (-80 °C). In fact, the RTN behavior is more visible at 
+low temperatures.  On our test platform, the Flash RNG generates about 1K 
+to 10K bits per second. Overall, the experiments show that true random 
+numbers can be generated reliably from off-the-shelf Flash memory chips 
+without requiring custom circuits.
+
+\section{Device Fingerprint}
+
+In addition to generating true random numbers, we also found that the standard Flash interface can be used to extract fingerprints (or signatures) that are unique for each Flash chip. For this purpose, our technique exploits inherent random variations during Flash manufacturing processes. More specifically, we show that the distributions of transistor threshold voltages can be measured through the standard Flash interface using incremental partial programming. Experimental results show that these threshold voltage distributions can be used as fingerprints, as they are significantly different from chip to chip, or even from location to location within a chip. The distributions also stay relatively stable across temperature ranges and over time. Thanks to the large number of bits (often several gigabits) in modern Flash chips, this technique can generate a large number of independent fingerprints from each chip. 
+
+The Flash fingerprints provide an attractive way to identify and/or authenticate hardware devices and generate device-specific keys, especially when no cryptographic module is available or a large number of independent keys are desired. For example, at a hardware component level, the fingerprints can be used to distinguish genuine parts from counterfeit components without requiring cryptography to be added to each component. The fingerprinting technique can also be used for other authentication applications such as turning a Flash device into a two-factor authentication token, or identifying individual nodes in sensor networks. 
+
+While the notion of exploiting manufacturing process variations to generate silicon device fingerprints and secret keys is not new and has been extensively studied under the name of Physical Unclonable Functions (PUFs) \cite{suhpuf2007}, the Flash-based technique in this paper represents a unique contribution in terms of its practical applicability. Similar to true RNGs, most PUF designs require custom circuits to convert unique analog characteristics into digital bits. On the other hand, our technique can be applied to off-the-shelf Flash without hardware changes. Researchers have recently proposed techniques to exploit existing bi-stable storage elements such as SRAMs \cite{koeberl2011practical} or Flash cells \cite{trust2011} to generate device fingerprints. Unfortunately, obtaining fingerprints from bi-stable elements requires a power cycle (power off and power on) of a device for every fingerprint generation. The previous approach to fingerprinting Flash only works for a certain types of Flash chips and takes long time (100 seconds for one fingerprint) because it relies on rare errors called program disturbs. As an example, we did not see any program disturbs in SLC Flash chips that we used in experiments. To the best of our knowledge, the proposed device fingerprinting techniques is the first that is fast (less than 1 second for a 1024-bit fingerprint) and widely applicable without interfering with normal operation or requiring custom hardware.
+
+\section{Information Hiding}
+
+This part introduces a technique to hide information in analog characteristics 
+of Flash memory in a way that the hidden bits are not visible at all from the viewpoint of normal 
+Flash memory content. More specifically, our technique encodes a hidden bit in the program
+time of a group of Flash cells; a fast program time encodes bit '1' and a slow program time 
+encodes bit '0'. We found that writing 0 into a Flash cell incurs more 
+stress on the cell than writing 1, which in turn results in a larger decrease in
+the program time of the corresponding cell. While the program time of individual cells cannot
+be accurately controlled, our experiments demonstrate that bits can be reliably encoded
+in the program time using many cells collectively.
+
+%Technical challenge - partial programming. 
+
+%Main Advantages / Characteristics
+While a number of steganography techniques have been developed previously, our
+Flash-based technique provides unique benefits compared to typical digital
+steganography schemes where information is hidden in another form of digital content such 
+as images and documents. In particular, the hidden information in Flash memory is
+decoupled from the Flash memory content and instead tied to the physical object.
+The following summarizes the main benefits of our scheme compared to
+digital steganography.
+
+\begin{itemize}
+
+\item {\bf Covert}: The proposed technique does not change normal Flash operations
+or content at all. As a result, inspecting the Flash memory content does not reveal
+any hidden information. All Flash memory operations can still be performed without
+any change, even with hidden information. In fact, our experimental results suggest 
+that even analog characteristics of Flash memory such as page program/erase time do not
+change noticeably. 
+
+\item {\bf Erase tolerant}: The hidden information in Flash memory remains intact
+even if the entire Flash memory is erased and programmed with new content. In
+fact, our experiments show that the hidden information can survive even hundreds
+of program/erase operations. 
+
+\item {\bf Copy tolerant}: In typical digital steganography, the cover text with
+hidden information can be easily copied and stored so that it can be analyzed 
+over time. The hidden information in our technique, however, is tied to physical
+Flash memory and can only be accessed by measuring the program time of individual memory 
+cells while the Flash memory is in one's possession. Because modern Flash memory chips 
+often contain tens or hundreds of billions of memory cells, fully characterizing
+a Flash chip without knowing the location of hidden bits is quite time consuming.
+%Our experiments estimate that such an attack will take multiple weeks.
+
+\end{itemize}
+
+In a sense, the proposed information hiding technique is similar to physical
+steganography methods where information is hidden in physical objects.
+% should we cite wikipedia? I included a survey paper instead below. \cite{wikipedia-steg}.
+For example, people have used secret inks to write messages on blank parts
+of other messages \cite{exploringsteganography}. However, 
+the proposed technique provides a couple of key
+benefits over traditional physical steganography methods thanks to being
+electrical.
+
+\begin{itemize}
+
+\item {\bf No hardware modification}:
+The proposed technique works on unmodified Flash chips using the standard
+interface. In fact, the technique can be implemented as a software program
+as long as a low-level Flash interface is exposed.
+
+\item {\bf High capacity}:
+Thanks to the high capacity of Flash memory, our technique provides a fairly
+high capacity compared to traditional physical steganography techniques. 
+For example, even if we hide one bit for every 512 Flash cells, a 8GB Flash
+chip can contain 16MB of hidden information. 
+
+\end{itemize}
+
+%Application?
+
+Given the ubiquity of Flash memory and the easy applicability of the proposed
+scheme on commercial Flash chips, we believe that the technique can enable a
+number of interesting applications. An obvious application of the information
+hiding in Flash is a secure and covert storage of data.
+For example, a user can hide sensitive information in the Flash memory of
+a smartphone with confidence that others cannot retrieve the information
+even when the phone is lost or stolen. Information hiding provides an
+additional layer of protection on top of typical encryption by preventing an 
+adversary from reading or even copying the ciphertext.
+
+On the other hand, the capability to covertly communicate may be misused to
+bypass legitimate access control policies. For example, in the business world,
+the hidden information in Flash may be misused to export trade secrets.
+In this sense, this study points out the potential danger.
+
+Another traditional application of information hiding is watermarking. 
+In particular, given that the hidden information is tied to a physical Flash
+memory chip, the proposed technique can be used to embed watermarking
+in devices with Flash memory. For example, mobile or embedded devices
+may be watermarked to help retrieve them when lost or stolen. Similarly,
+the watermarks can be used to distinguish genuine devices from low-quality
+counterfeits. 

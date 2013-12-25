@@ -1,0 +1,37 @@
+\begin{scriptsize}
+\begin{tabular}{|l|c|}
+\hline
+
+ \emph{Parameter} & \emph{Value} \\
+
+\hline
+
+ Shader cores  &  30 \\
+ Threads per core &  {\bf 1024}, 2048  \\
+ Threads per warp & 32 \\
+ Warps per core & {\bf 32}, 64  \\
+ Registers per core & {\bf 16384}, 32768 \\
+ Register file size per core & {\bf 64KB}, 128KB \\ 
+ Register file banks per core & 32 \\
+ Register file bank size & {\bf 2KB}, 4KB \\
+ Register file sub-banks & 2 \\
+ Execution units per core & 16, {\bf 32} \\
+% Warp Scheduling Policy & Round Robin among ready Warps\\
+\hline 
+ \emph{Hybrid Memory Register File} & \\
+\hline
+%   \emph{1 HM per bank} &\\
+% Size of SRAM array &  \textbf{4KB, 2KB, 1KB} \\
+% Contexts per cell & \textbf{2,4,8} \\
+%  \emph{2 HM arrays per bank} &\\
+% Size of one SRAM-DRAM context &  512B, 256B, 128B \\
+ Contexts per cell & 2, 4, 8 \\
+ Context switch latency & {\bf 3}, 4, 5 \\
+ Scheduler counter threshold & {\bf 10,000}\\
+% Warp Scheduling Policy & \textbf{FIXME, RAY, ED!} \\
+ 
+ \hline
+
+\end{tabular}
+\end{scriptsize}
+

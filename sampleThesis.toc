@@ -1,0 +1,70 @@
+\contentsline {section}{Biographical Sketch}{iii}
+\contentsline {section}{Dedication}{iv}
+\contentsline {section}{Acknowledgements}{v}
+\contentsline {section}{Table of Contents}{vii}
+\contentsline {section}{List of Tables}{ix}
+\contentsline {section}{List of Figures}{x}
+\contentsline {chapter}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {1.1}Overview}{1}
+\contentsline {section}{\numberline {1.2}Quantum Random Number Generation}{2}
+\contentsline {section}{\numberline {1.3}Device Fingerprint}{3}
+\contentsline {section}{\numberline {1.4}Information Hiding}{5}
+\contentsline {chapter}{\numberline {2}Flash Memory Background}{9}
+\contentsline {section}{\numberline {2.1}Floating Gate Transistors}{9}
+\contentsline {section}{\numberline {2.2}Flash Organization and Operation}{10}
+\contentsline {section}{\numberline {2.3}Aging}{11}
+\contentsline {section}{\numberline {2.4}Partial Programming}{11}
+\contentsline {chapter}{\numberline {3}Random Number Generation}{13}
+\contentsline {section}{\numberline {3.1}Theory and Implementation}{13}
+\contentsline {subsection}{\numberline {3.1.1}Random Telegraph Noise (RTN)}{13}
+\contentsline {subsection}{\numberline {3.1.2}Noise Extraction from Digital Interface}{14}
+\contentsline {subsection}{\numberline {3.1.3}Random Number Generation Algorithms}{16}
+\contentsline {section}{\numberline {3.2}Experimental Results}{22}
+\contentsline {subsection}{\numberline {3.2.1}Evaluation Setup}{23}
+\contentsline {subsection}{\numberline {3.2.2} Randomness}{24}
+\contentsline {subsection}{\numberline {3.2.3}Performance}{26}
+\contentsline {subsection}{\numberline {3.2.4}Temperature Variations}{29}
+\contentsline {subsection}{\numberline {3.2.5}Aging}{30}
+\contentsline {section}{\numberline {3.3}Application Scenarios}{32}
+\contentsline {section}{\numberline {3.4}Related Work}{34}
+\contentsline {chapter}{\numberline {4}Random Number Generation}{36}
+\contentsline {section}{\numberline {4.1}Theory and Implementation}{36}
+\contentsline {subsection}{\numberline {4.1.1}Sources of Uniqueness}{36}
+\contentsline {subsection}{\numberline {4.1.2}Extracting Fingerprints}{36}
+\contentsline {subsection}{\numberline {4.1.3}Comparing Fingerprints}{37}
+\contentsline {subsection}{\numberline {4.1.4}Fingerprints in Binary Numbers}{38}
+\contentsline {section}{\numberline {4.2}Evaluation}{40}
+\contentsline {subsection}{\numberline {4.2.1}Uniqueness}{41}
+\contentsline {subsection}{\numberline {4.2.2}Robustness}{43}
+\contentsline {subsection}{\numberline {4.2.3}Temperature Variations and Aging}{45}
+\contentsline {subsection}{\numberline {4.2.4}Security}{47}
+\contentsline {subsection}{\numberline {4.2.5}Applicability to Multiple Flash Chips}{48}
+\contentsline {section}{\numberline {4.3}Application Scenarios}{49}
+\contentsline {section}{\numberline {4.4}Related Work}{52}
+\contentsline {chapter}{\numberline {5}Hiding Information in Flash Memory}{53}
+\contentsline {section}{\numberline {5.1}Overview}{53}
+\contentsline {subsection}{\numberline {5.1.1}Threat Model}{53}
+\contentsline {subsection}{\numberline {5.1.2}Flash Interface Requirements}{55}
+\contentsline {section}{\numberline {5.2}Information Hiding Algorithm}{55}
+\contentsline {subsection}{\numberline {5.2.1}Overview}{55}
+\contentsline {subsection}{\numberline {5.2.2}Hiding Algorithm}{60}
+\contentsline {subsection}{\numberline {5.2.3}Recovery Algorithm}{62}
+\contentsline {section}{\numberline {5.3}Evaluation}{64}
+\contentsline {subsection}{\numberline {5.3.1}Evaluation Setup}{65}
+\contentsline {subsubsection}{Testbed Device}{65}
+\contentsline {subsubsection}{Flash Memory Chips}{66}
+\contentsline {subsection}{\numberline {5.3.2}Robustness - Bit Error Rate}{67}
+\contentsline {subsection}{\numberline {5.3.3}Performance}{71}
+\contentsline {subsection}{\numberline {5.3.4}Detectability}{73}
+\contentsline {subsubsection}{Anomalies in Normal Flash Operations}{74}
+\contentsline {subsubsection}{Page Selection and Per-Bit Program Time Collection}{83}
+\contentsline {subsubsection}{Per-Bit Program Time Analysis}{84}
+\contentsline {subsection}{\numberline {5.3.5}Retrieval without the Hiding Key}{89}
+\contentsline {subsection}{\numberline {5.3.6}Erase Tolerance}{89}
+\contentsline {subsection}{\numberline {5.3.7}Different Flash Models}{90}
+\contentsline {section}{\numberline {5.4}Related Work}{91}
+\contentsline {subsection}{\numberline {5.4.1}Steganography}{92}
+\contentsline {subsection}{\numberline {5.4.2}Flash Based Security}{93}
+\contentsline {subsection}{\numberline {5.4.3}Physical Unclonable Functions}{94}
+\contentsline {chapter}{\numberline {6}Conclusion}{95}
+\contentsline {chapter}{Bibliography}{97}

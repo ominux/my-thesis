@@ -1,0 +1,124 @@
+\section{Related Work} \label{sec:relatedwork} This section
+briefly summarizes prior work in steganography technologies and
+hardware security functions, and discusses how they are related
+to the information hiding technique in this paper.
+
+
+\subsection{Steganography}
+
+With the advent of information technology, digital steganography
+has become the subject of considerable study.
+
+A large body of 
+work has focused on hiding information within digital
+files, such as images, videos, audio files, text, and others
+\cite{digitalsurvey2010,stegintro2003,infohidingsurvey}. 
+These schemes usually hide data in unused meta-data fields, or 
+by exploiting noise in the digital content itself; i.e. altering
+colors slightly in an image or frequency components in an
+audio file. In all cases the hidden data is tied
+to the data in the digital file. A recent proposal \cite{Khan2011}
+takes a different approach: using the fragmentation pattern 
+of digital files in a file system as a covert channel, 
+avoiding tampering with the digital content itself. However, 
+hidden data is still innately tied to the existence of a digital
+file. Also, modifying
+hard drive firmware has been investigated as a potential way to
+hide information \cite{harddisksteganography}. Data is hidden in
+sectors marked as unusable at the firmware level (instead of the
+OS or filesystem level), which renders the sectors inaccessible
+to most software and complicates recovery, as it is difficult to
+tell legitimately bad sectors from ones used for hiding.
+
+Our proposed scheme for Flash memory shares the concept of exploiting
+noise to hide data, in the sense that intentionally created biases
+are hidden in inherent variations in Flash program time.
+However, unlike the above methods, in which hidden 
+information depends upon plainly visible digital files, our 
+information hiding scheme uses analog properties of Flash. 
+As a result, hidden information
+is decoupled from the digital content and instead tied to a
+physical object. The use of physical properties makes detecting,
+copying, or erasing of hidden information difficult because it
+requires detailed and time-consuming analog measurements.
+
+Some steganographic
+techniques hide information where it is not encoded in plainly
+visible digital files. For example, there exist methods to hide
+information in the noise of wireless and optical transmissions
+by modifying the physical layer protocol
+\cite{802comm,80211ofdmsteg,opticalsteg2009}. 
+Our work presents a new way to hide
+information in Flash memory. Unlike previous techniques, which
+often require special tools or modifications to existing
+protocols, the proposed information hiding technique can be
+applied to Flash memory chip through a standard interface
+without any hardware modification.
+
+To make
+the steganographic functions available in the embedded domain,
+Stanescu et al. proposed to use an FPGA to efficiently process
+steganographic algorithms \cite{steganographyembedded}. Our 
+technique gives embedded platforms the ability to hide info 
+within the device at a level not visible to the file system,
+and requires no additional hardware, as Flash memory is common
+on embedded platforms.
+
+%Found a lot of interesting non-file-based steganography
+
+%1. hard drive firmware steganography -- malware takes over hard
+%drive firmware, maps some sectors %as "bad" when they are fine,
+%and hide data there. OS and even forensic tools cannot see the
+%data. %Have to remodify firmware to recover data.
+
+%1. hiding info in the cluster/fragmentation patterns of hdds --
+%use fragmented files and their % fragmentation pattern to hide
+%1/0 in. data lost if defragmented or deleted. can claim data %
+%is indistinguishable from normal fragmentation patterns.
+
+%2. wireless physical layer steganography. use protocol noise
+%headroom to send message. %if noise is corrected, message is
+%lost. if you know to look in the "noise" then good.
+
+%3. optical network steganography. similar to wireless layer,
+%you hide info in the dispersion %of the wavelength...
+
+%. immunochemical steganography (biological... not really
+%related to us)
+
+%Also have some work on security of steganography. Unsure how or
+%if we should %apply them to our work.
+
+%Provable secure steganography \cite{provablesteg2009}
+
+\subsection{Flash Based Security}
+
+We hide a message in the per-bit program times of Flash memory.
+Given the popularity of Flash memory in computing systems, there
+have been studies on analog characteristics of Flash memory
+\cite{grupp2009}. While we have gained insight from the previous work,
+it primarily focuses on using analog variations to build
+more efficient computing systems rather than enhancing security.
+
+Recently, there have been proposals to use noise and variations
+in Flash memory for security by generating true random numbers
+and unique chip fingerprints \cite{trust2011, flash-ieeesp2012}.
+We use the partial programming technique that was proposed by
+the previous study. However, this paper proposes a completely
+new application of Flash memory in the context of information
+hiding instead of random number generation and fingerprinting.
+
+\subsection{Physical Unclonable Functions}
+
+Physical Unclonable Functions (PUFs) exploit process variation
+to provide unique fingerprints for logic circuits
+\cite{suhpuf2007}. Special circuits are built that vary their
+output depending on the process variation specific to one
+instance of the chip. This work is related to PUFs in the sense
+that we exploit physical properties and process variations for
+security purposes. However, unlike PUFs, our information
+hiding scheme uses process variations to hide information
+instead of generating device-specific fingerprints and keys.
+Also, our information hiding technique can be applied using
+standard Flash chips and does not require any custom circuitry.
+

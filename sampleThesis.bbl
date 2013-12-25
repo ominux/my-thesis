@@ -1,0 +1,248 @@
+\begin{thebibliography}{10}
+
+\bibitem{ristenpart2010good}
+Thomas Ristenpart and Scott Yilek.
+\newblock When good randomness goes bad: Virtual machine reset vulnerabilities
+  and hedging deployed cryptography.
+\newblock In {\em NDSS}, 2010.
+
+\bibitem{rukhin2001statistical}
+Andrew Rukhin, Juan Soto, James Nechvatal, Miles Smid, and Elaine Barker.
+\newblock A statistical test suite for random and pseudorandom number
+  generators for cryptographic applications.
+\newblock Technical report, DTIC Document, 2001.
+
+\bibitem{suhpuf2007}
+G.E. Suh and S.~Devadas.
+\newblock {Physical Unclonable Functions for Device Authentication and Secret
+  Key Generation}.
+\newblock In {\em Proceedings of the 44th Design Automation Conference}, 2007.
+
+\bibitem{koeberl2011practical}
+Patrick Koeberl, Jiangtao Li, Anand Rajan, Claire Vishik, and Wei Wu.
+\newblock A practical device authentication scheme using sram pufs.
+\newblock In {\em Trust and Trustworthy Computing}, pages 63--77. Springer,
+  2011.
+
+\bibitem{trust2011}
+Pravin Prabhu, Ameen Akel, Laura Grupp, Wingkei Yu, G.E. Suh, Edwin Kan, and
+  Steven Swanson.
+\newblock {Extracting Device Fingerprints from Flash Memory by Exploiting
+  Physical Variations}.
+\newblock In {\em Trust and Trustworthy Computing}, Lecture Notes in Computer
+  Science. Springer Berlin / Heidelberg, 2011.
+
+\bibitem{exploringsteganography}
+N.F. Johnson and S.~Jajodia.
+\newblock {Exploring Steganography: Seeing the Unseen}.
+\newblock {\em Computer}, 1998.
+
+\bibitem{flash-ieeesp2012}
+Yinglei Wang, Wingkei Yu, G.~Edward Suh, and Edwin Kan.
+\newblock {Flash Memory for Ubiquitous Hardware Security Functions: True Random
+  Number Generation and Device Fingerprints}.
+\newblock In {\em Proceedings of the {IEEE} Symposium on Security and Privacy},
+  2012.
+
+\bibitem{kirton1989noise}
+MJ~Kirton and MJ~Uren.
+\newblock Noise in solid-state microstructures: A new perspective on individual
+  defects, interface states and low-frequency (1/ƒ) noise.
+\newblock {\em Advances in Physics}, 38(4):367--468, 1989.
+
+\bibitem{kurata2007random}
+Hideaki Kurata, Kazuo Otsuga, Akira Kotabe, Shinya Kajiyama, Taro Osabe,
+  Yoshitaka Sasago, Shunichi Narumi, Kenji Tokami, Shiro Kamohara, and Osamu
+  Tsuchiya.
+\newblock Random telegraph signal in flash memory: Its impact on scaling of
+  multilevel flash memory beyond the 90-nm node.
+\newblock {\em Solid-State Circuits, IEEE Journal of}, 42(6):1362--1369, 2007.
+
+\bibitem{compagnoni2009random}
+C~Monzio Compagnoni, Michele Ghidotti, Andrea~L Lacaita, Alessandro~S Spinelli,
+  and Angelo Visconti.
+\newblock Random telegraph noise effect on the programmed threshold-voltage
+  distribution of flash memories.
+\newblock {\em Electron Device Letters, IEEE}, 30(9):984--986, 2009.
+
+\bibitem{joe2011threshold}
+Sung-Min Joe, Jeong-Hyong Yi, Sung-Kye Park, Hyungcheol Shin, Byung-Gook Park,
+  Young~June Park, and Jong-Ho Lee.
+\newblock Threshold voltage fluctuation by random telegraph noise in floating
+  gate nand flash memory string.
+\newblock {\em Electron Devices, IEEE Transactions on}, 58(1):67--73, 2011.
+
+\bibitem{knuth1973art}
+Donald~E Knuth.
+\newblock The art of computer programming, volume 1: fundamental algorithms.
+\newblock {\em Addison-Wesley, Reading, Mass}, 1973.
+
+\bibitem{abe2011understanding}
+Kenichi Abe, Akinobu Teramoto, Shigetoshi Sugawa, and Tadahiro Ohmi.
+\newblock Understanding of traps causing random telegraph noise based on
+  experimentally extracted time constants and amplitude.
+\newblock In {\em Reliability Physics Symposium (IRPS), 2011 IEEE
+  International}, pages 4A--4. IEEE, 2011.
+
+\bibitem{scofield2000temperature}
+John~H Scofield, Nick Borland, and DM~Fleetwood.
+\newblock Temperature-independent switching rates for a random telegraph signal
+  in a silicon metal--oxide--semiconductor field-effect transistor at low
+  temperatures.
+\newblock {\em Applied Physics Letters}, 76(22):3248--3250, 2000.
+
+\bibitem{onfi}
+{Open NAND Flash Interface}.
+\newblock http://onfi.org.
+
+\bibitem{instruments2013omap}
+Texas Instruments.
+\newblock Omap mobile processors, 2013.
+
+\bibitem{sunar2007provably}
+Berk Sunar, William~J Martin, and Douglas~R Stinson.
+\newblock A provably secure true random number generator with built-in
+  tolerance to active attacks.
+\newblock {\em Computers, IEEE Transactions on}, 56(1):109--119, 2007.
+
+\bibitem{o2004puf}
+Charles~W O’donnell, G~Edward Suh, and Srinivas Devadas.
+\newblock Puf-based random number generation.
+\newblock {\em In MIT CSAIL CSG Technical Memo}, 481, 2004.
+
+\bibitem{majzoobi2011fpga}
+Mehrdad Majzoobi, Farinaz Koushanfar, and Srinivas Devadas.
+\newblock Fpga-based true random number generation using circuit metastability
+  with adaptive feedback control.
+\newblock In {\em Cryptographic Hardware and Embedded Systems--CHES 2011},
+  pages 17--32. Springer, 2011.
+
+\bibitem{intelrng}
+C.~Dike G.~Cox and D.~J. Johnston.
+\newblock Intel’s digital random number generator, 2011.
+
+\bibitem{eetimesfakeparts}
+EE~Times.com.
+\newblock U.s.: Fake parts threaten electronic market, 2010.
+
+\bibitem{sosfakeflash}
+Sosfakeflash.
+
+\bibitem{dodis2004fuzzy}
+Yevgeniy Dodis, Leonid Reyzin, and Adam Smith.
+\newblock Fuzzy extractors: How to generate strong keys from biometrics and
+  other noisy data.
+\newblock In {\em Advances in cryptology-Eurocrypt 2004}, pages 523--540.
+  Springer, 2004.
+
+\bibitem{boning1996statistical}
+D~Boning and J~Chung.
+\newblock Statistical metrology: Understanding spatial variation in
+  semiconductor manufacturing.
+\newblock In {\em Microelectronic Manufacturing Yield, Reliability, and Failure
+  Analysis II: SPIE 1996 Symp. On Microelectronic Manufacturing}, 1996.
+
+\bibitem{bowman2002impact}
+Keith~A Bowman, Steven~G Duvall, and James~D Meindl.
+\newblock Impact of die-to-die and within-die parameter fluctuations on the
+  maximum clock frequency distribution for gigascale integration.
+\newblock {\em Solid-State Circuits, IEEE Journal of}, 37(2):183--190, 2002.
+
+\bibitem{nassif2000modeling}
+Sani~R Nassif.
+\newblock Modeling and forecasting of manufacturing variations.
+\newblock In {\em Statistical Metrology, 2000 5th International Workshop on},
+  pages 2--10. IEEE, 2000.
+
+\bibitem{ravikanth2001physical}
+Pappu~Srinivasa Ravikanth.
+\newblock {\em Physical one-way functions}.
+\newblock PhD thesis, Massachusetts Institute of Technology, 2001.
+
+\bibitem{gassend2002silicon}
+Blaise Gassend, Dwaine Clarke, Marten Van~Dijk, and Srinivas Devadas.
+\newblock Silicon physical random functions.
+\newblock In {\em Proceedings of the 9th ACM conference on Computer and
+  communications security}, pages 148--160. ACM, 2002.
+
+\bibitem{lee2004technique}
+Jae~W Lee, Daihyun Lim, Blaise Gassend, G~Edward Suh, Marten Van~Dijk, and
+  Srinivas Devadas.
+\newblock A technique to build a secret key in integrated circuits for
+  identification and authentication applications.
+\newblock In {\em VLSI Circuits, 2004. Digest of Technical Papers. 2004
+  Symposium on}, pages 176--179. IEEE, 2004.
+
+\bibitem{holcomb2007initial}
+Daniel~E Holcomb, Wayne~P Burleson, and Kevin Fu.
+\newblock Initial sram state as a fingerprint and source of true random numbers
+  for rfid tags.
+\newblock In {\em Proceedings of the Conference on RFID Security}, volume~7,
+  2007.
+
+\bibitem{grupp2009}
+L.M. Grupp, A.M. Caulfield, J.~Coburn, S.~Swanson, E.~Yaakobi, P.H. Siegel, and
+  J.K. Wolf.
+\newblock {Characterizing Flash Memory: Anomalies, Observations, and
+  Applications}.
+\newblock In {\em Proceedings of the 42nd International Symposium on
+  Microarchitecture}, 2009.
+
+\bibitem{libsvm}
+Chih-Chung Chang and Chih-Jen Lin.
+\newblock {LIBSVM}: A library for support vector machines.
+\newblock {\em ACM Transactions on Intelligent Systems and Technology},
+  2:27:1--27:27, 2011.
+\newblock Software available at http://www.csie.ntu.edu.tw/~cjlin/libsvm.
+
+\bibitem{digitalsurvey2010}
+Abbas Cheddad, Joan Condell, Kevin Curran, and Paul~Mc Kevitt.
+\newblock {Digital Image Steganography: Survey and Analysis of Current
+  Methods}.
+\newblock {\em Signal Processing}, 2010.
+
+\bibitem{stegintro2003}
+N.~Provos and P.~Honeyman.
+\newblock {Hide and Seek: An Introduction to Steganography}.
+\newblock {\em IEEE Security \& Privacy}, 2003.
+
+\bibitem{infohidingsurvey}
+F.A.P. Petitcolas, R.J. Anderson, and M.G. Kuhn.
+\newblock {Information Hiding - A Survey}.
+\newblock {\em Proceedings of the IEEE}, 1999.
+
+\bibitem{Khan2011}
+Hassan Khan, Mobin Javed, Syed~Ali Khayam, and Fauzan Mirza.
+\newblock Designing a cluster-based covert channel to evade disk investigation
+  and forensics.
+\newblock {\em Computers \& Security}, 30(1):35 -- 49, 2011.
+
+\bibitem{harddisksteganography}
+Iain Sutherland, Gareth Davies, and Andrew Blyth.
+\newblock {Malware and Steganography in Hard Disk Firmware}.
+\newblock {\em Journal in Computer Virology}, 2011.
+
+\bibitem{802comm}
+A.M. Mehta, S.~Lanzisera, and K.~Pister.
+\newblock {Steganography in 802.15.4 Wireless Communication}.
+\newblock In {\em Proceedings of the 2nd International Symposium on Advanced
+  Networks and Telecommunication Systems}, 2008.
+
+\bibitem{80211ofdmsteg}
+Krzysztof Szczypiorski and Wojciech Mazurczyk.
+\newblock {Steganography in IEEE 802.11 OFDM Symbols}.
+\newblock {\em Security and Communication Networks}, 2011.
+
+\bibitem{opticalsteg2009}
+P.R. Prucnal, M.P. Fok, K.~Kravtsov, and Zhenxing Wang.
+\newblock {Optical Steganography for Data Hiding in Optical Networks}.
+\newblock In {\em Proceedings of the 16th International Conference on Digital
+  Signal Processing}, 2009.
+
+\bibitem{steganographyembedded}
+D.~Stanescu, V.~Stangaciu, I.~Ghergulescu, and M.~Stratulat.
+\newblock {Steganography on Embedded Devices}.
+\newblock In {\em Proceedings of the 5th International Symposium on Applied
+  Computational Intelligence and Informatics (SACI)}, 2009.
+
+\end{thebibliography}

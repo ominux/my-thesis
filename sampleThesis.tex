@@ -1,0 +1,139 @@
+\RequirePackage{ifpdf}
+\documentclass[master,tocprelim]{cornell}
+%
+% tocprelim option must be included to put the roman numeral pages in the
+% table of contents
+%
+% The cornellheadings option will make headings completely consistent with
+% guidelines.
+%
+% This sample document was originally provided by Blake Jacquot, and
+% fixed up by Andrew Myers.
+%
+%Some possible packages to include
+\usepackage{graphicx,pstricks}
+\usepackage{graphics}
+\usepackage{moreverb}
+\usepackage{subfigure}
+\usepackage{epsfig}
+\usepackage{subfigure}
+\usepackage{hangcaption}
+%\usepackage{txfonts}
+\usepackage{palatino}
+
+%new packages added by Yinglei Wang
+\usepackage[cmex10]{amsmath}
+\usepackage{url}
+
+\def\mywidth{5in}
+
+
+%if you're having problems with overfull boxes, you may need to increase
+%the tolerance to 9999
+\tolerance=9999
+
+\bibliographystyle{unsrt}
+%\bibliographystyle{IEEEbib}
+
+\renewcommand{\caption}[1]{\singlespacing\hangcaption{#1}\normalspacing}
+\renewcommand{\topfraction}{0.85}
+\renewcommand{\textfraction}{0.1}
+\renewcommand{\floatpagefraction}{0.75}
+
+\title {Flash Memory for Ubiquitous Hardware Security Functions}
+\author {Yinglei Wang}
+\conferraldate {December}{2013}
+\degreefield {M.S.}
+\copyrightholder{Yinglei Wang}
+\copyrightyear{2013}
+
+\begin{document}
+
+\maketitle
+\makecopyright
+
+\begin{abstract}
+We demonstrate that unmodified commercial Flash memory can 
+provide three important security functions: true random number 
+generation, digital fingerprinting and information hiding. Taking advantage of random telegraph 
+noise (a type of quantum noise source in highly scaled Flash memory cells) 
+enables high quality true random number generation at a rate up to  
+10Kbits / second. A scheme based on partial programming exploits process 
+variation in threshold voltages to allow quick generation of many unique 
+fingerprints that can be used for identification and authentication. 
+Information hiding hides 
+data within an analog characteristic of Flash, the program time of individual bits. 
+Because the technique uses analog behaviors, normal Flash memory operations are
+not affected and hidden information is invisible in the data stored in the memory.
+Even if an attacker checks a Flash chip's analog characteristics,
+experimental results indicate that the hidden information is difficult to distinguish 
+from inherent manufacturing variation or normal wear on the device.
+Moreover, the hidden data can survive erasure of the Flash memory data.
+All
+schemes require no change to Flash chips or interfaces, and do not require additional hardware. 
+\end{abstract}
+
+\begin{biosketch}
+Yinglei Wang attended Peking(Beijing) University in China as an EECS undergraduate student from year 2006 to 2010. 
+She entered the MS/PHD program in ECE, Cornell University in Fall, 2010. She worked with Prof. Edwin C. Kan, 
+Prof. G. Edward Suh and Prof. Christopher Batten on flash memory security and on-chip network. She will work as
+a software engineer at Oracle from January, 2014.
+\end{biosketch}
+
+\begin{dedication}
+This document is dedicated to my parents and my husband Xuetian Weng, who is now a PHD student in Computer Science.
+\end{dedication}
+
+\begin{acknowledgements}
+Upon leaving Cornell and Ithaca after spending three years and a half here, I have to admit it is an unexpected ending.
+Nevertheless, it is invaluable experience which taught me a lot of things: knowledge, research, relationships and life. 
+
+First, I would like 
+to express the deepest appreciation and gratitude to my advisor, Prof. Edwin C. Kan.  He has supported me throughout 
+graduate school, and provided the vision and advise necessary to finish my dissertation. More importantly, he gives me the 
+freedom to explore new things and tries his best to support me. I would also like to express sincere thanks to my committee member, 
+Prof. G. Edward Suh. He has given me so much guidance and help on my research. What's more, he tried to help me in my most 
+difficult days, and I really appreciate it. Special thanks to my committee member, Prof. Christopher Batten. 
+His computer architecture course is the first computer architecture/organaization course I took and I was deeply attracted to it.
+I also learned 
+a lot, both technical skills and the methodology of engineering, when working with him. I would also like
+to take this opporutnity to express my sincere thanks to one of my course instructors, 
+Prof. Jose F. Martinez. In addition to his interesting lectures, He is concerned with my situation and I could feel free to tell him my efforts, worries, concerns and feelings. I really 
+appreciate his advice and his attitude towards work and life.
+
+Throughout the years, I have the honor to work with several brilliant graduate and undergradute students. I would like to thank KK Yu, 
+Greg Malysa and Shuo Wu for their help and contribution to this topic. I would also like to thank the group memebers, especially 
+Kshitij Auluck and Yunfei Ma for their 
+inspiring discussions and friendship.
+
+I wish to thank my parents, Deming Wang and Chunhua Wang. Their unconditional love always gives me the warmth and courage to 
+carry on. I love them forever. I also hope to thank my husband, Xuetian Weng, who is now a PHD student in Computer Science, Stony Brook 
+Unviersity. He can always tolerate my bad temper and complaints. He also encourages me to think about the good things about life 
+and be a happy person. I'm so lucky to have his love in my life and I love him. Best wishes to his PHD career.
+
+Sincere thanks and best wishes to all my friends at Cornell.
+
+\end{acknowledgements}
+
+\contentspage
+\tablelistpage
+\figurelistpage
+
+\normalspacing \setcounter{page}{1} \pagenumbering{arabic}
+\pagestyle{cornell} \addtolength{\parskip}{0.5\baselineskip}
+
+\input{introduction.tex}
+
+\input{flash.tex}
+
+\input{rng.tex}
+
+\input{fingerprints.tex}
+
+\input{steg.tex}
+
+\input{conclusion.tex}
+
+\bibliography{sampleThesis}
+
+\end{document}

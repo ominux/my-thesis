@@ -1,0 +1,1036 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2013.11.27)  22 DEC 2013 15:46
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**sampleThesis.tex
+(./sampleThesis.tex
+LaTeX2e <2011/06/27>
+Babel <3.9f> and hyphenation patterns for 2 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+) (./cornell.cls
+Document Class: cornell 2008/4/17 v2.9 Cornell University thesis class
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+\@abhdskip=\skip43
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pstricks/pstricks.sty
+Package: pstricks 2013/05/22 v0.57 LaTeX wrapper for `PSTricks' (RN,HV)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/pst-xkey.tex
+File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
+
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+\XKV@toks=\toks15
+\XKV@tempa@toks=\toks16
+\XKV@depth=\count89
+File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pstricks/pst-fp.tex
+`pst-fp' v0.05, 2010/01/17 (hv)
+\pstFP@xs=\count90
+\pstFP@xia=\count91
+\pstFP@xib=\count92
+\pstFP@xfa=\count93
+\pstFP@xfb=\count94
+\pstFP@rega=\count95
+\pstFP@regb=\count96
+\pstFP@regs=\count97
+\pstFP@times=\count98
+)
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks17
+)
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks18
+\pgfkeys@temptoks=\toks19
+
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks20
+))
+(/usr/share/texmf/tex/generic/pgf/utilities/pgffor.code.tex
+\pgffor@iter=\dimen105
+\pgffor@skip=\dimen106
+\pgffor@stack=\toks21
+\pgffor@toks=\toks22
+)
+\psLoopIndex=\count99
+
+`PSTricks' v2.45  <2013/07/09> (tvz)
+\pst@dima=\dimen107
+\pst@dimb=\dimen108
+\pst@dimc=\dimen109
+\pst@dimd=\dimen110
+\pst@dimg=\dimen111
+\pst@dimh=\dimen112
+\pst@dimm=\dimen113
+\pst@dimn=\dimen114
+\pst@dimo=\dimen115
+\pst@dimp=\dimen116
+\pst@hbox=\box26
+\pst@ibox=\box27
+\pst@boxg=\box28
+\pst@cnta=\count100
+\pst@cntb=\count101
+\pst@cntc=\count102
+\pst@cntd=\count103
+\pst@cntg=\count104
+\pst@cnth=\count105
+\pst@cntm=\count106
+\pst@cntn=\count107
+\pst@cnto=\count108
+\pst@cntp=\count109
+\@zero=\count110
+\pst@toks=\toks23
+(/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks.con)
+\psunit=\dimen117
+\psxunit=\dimen118
+\psyunit=\dimen119
+\pst@C@@rType=\count111
+\pslinewidth=\dimen120
+\psk@startLW=\dimen121
+\psk@endLW=\dimen122
+\pst@customdefs=\toks24
+\pslinearc=\dimen123
+\pst@symbolStep=\dimen124
+\pst@symbolWidth=\dimen125
+\pst@symbolLinewidth=\dimen126
+\everypsbox=\toks25
+\psframesep=\dimen127
+\pslabelsep=\dimen128
+\sh@wgridXunit=\dimen129
+\sh@wgridYunit=\dimen130
+\pst@shift=\dimen131
+)
+File: pstricks.tex 2013/07/09 v2.45 `PSTricks' (tvz,hv)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pstricks/pst-fp.tex)
+File: pst-fp.tex 2013/07/09 v2.45 `PST-fp' (hv)
+
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/moreverb/moreverb.sty
+Package: moreverb 2008/06/03 v2.3a `more' verbatim facilities
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks26
+\verbatim@line=\toks27
+\verbatim@in@stream=\read1
+)
+\tab@position=\count112
+\tab@size=\count113
+\listing@line=\count114
+)
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip44
+\subfigcapskip=\skip45
+\subfigcaptopadj=\dimen132
+\subfigbottomskip=\skip46
+\subfigcapmargin=\dimen133
+\subfiglabelskip=\skip47
+\c@subfigure=\count115
+\c@lofdepth=\count116
+\c@subtable=\count117
+\c@lotdepth=\count118
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip48
+\subfig@bottom=\skip49
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+\epsfxsize=\dimen134
+\epsfysize=\dimen135
+)
+(/usr/share/texlive/texmf-dist/tex/latex/misc209/hangcaption.sty
+\captionwidth=\skip50
+)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/palatino.sty
+Package: palatino 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks28
+\ex@=\dimen136
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen137
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count119
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count120
+\leftroot@=\count121
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count122
+\DOTSCASE@=\count123
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box29
+\strutbox@=\box30
+\big@size=\dimen138
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count124
+\c@MaxMatrixCols=\count125
+\dotsspace@=\muskip10
+\c@parentequation=\count126
+\dspbrk@lvl=\count127
+\tag@help=\toks29
+\row@=\count128
+\column@=\count129
+\maxfields@=\count130
+\andhelp@=\toks30
+\eqnshift@=\dimen139
+\alignsep@=\dimen140
+\tagshift@=\dimen141
+\tagwidth@=\dimen142
+\totwidth@=\dimen143
+\lineht@=\dimen144
+\@envbody=\toks31
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks32
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+) (./sampleThesis.aux
+
+LaTeX Warning: Label `fig:flashtestboard' multiply defined.
+
+
+LaTeX Warning: Label `tab:testedchips' multiply defined.
+
+)
+\openout1 = `sampleThesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 50.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ppl.fd
+File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
+)
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count131
+\scratchdimen=\dimen145
+\scratchbox=\box31
+\nofMPsegments=\count132
+\nofMParguments=\count133
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count134
+\MPscratchDim=\dimen146
+\MPnumerator=\count135
+\makeMPintoPDFobject=\count136
+\everyMPtoPDFconversion=\toks34
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Title page
+[1
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+
+
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Copyleft page
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 53.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsppl.fd
+File: omsppl.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 53.
+ [2
+
+]
+Abstract
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 55.
+[3
+
+]
+Vita
+[3
+
+
+] [4
+
+] [5
+
+
+] [6] (./sampleThesis.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 1.
+ [7
+
+
+])
+\tf@toc=\write3
+\openout3 = `sampleThesis.toc'.
+
+ [8] (./sampleThesis.lot)
+\tf@lot=\write4
+\openout4 = `sampleThesis.lot'.
+
+ [9
+
+
+]
+(./sampleThesis.lof
+Missing character: There is no ¬ in font pplr7t!
+Missing character: There is no ∞ in font pplr7t!
+Missing character: There is no ¬ in font pplr7t!
+Missing character: There is no ∞ in font pplr7t!
+ [10
+
+
+])
+\tf@lof=\write5
+\openout5 = `sampleThesis.lof'.
+
+ [11] (./introduction.tex
+Chapter 1.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 3.
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ô in font pplr7t!
+[1
+
+
+]
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ô in font pplr7t!
+Missing character: There is no ¬ in font pplr7t!
+Missing character: There is no ∞ in font pplr7t!
+ [2] [3] [4] [5] [6]) [7] (./flash.tex [8]
+Chapter 2.
+<figs/fgtrans-cleanaxis.png, id=69, 219.7008pt x 104.7915pt>
+File: figs/fgtrans-cleanaxis.png Graphic file (type png)
+
+<use figs/fgtrans-cleanaxis.png>
+Package pdftex.def Info: figs/fgtrans-cleanaxis.png used on input line 25.
+(pdftex.def)             Requested size: 361.34999pt x 172.36285pt.
+ [9
+
+] [10 <./figs/fgtrans-cleanaxis.png>]
+[11]) (./rng.tex [12]
+Chapter 3.
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ú in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ù in font pplr7t!
+[13
+
+] <figs/thermal_noise.png, id=86, 216.81pt x 101.178pt>
+File: figs/thermal_noise.png Graphic file (type png)
+
+<use figs/thermal_noise.png>
+Package pdftex.def Info: figs/thermal_noise.png used on input line 16.
+(pdftex.def)             Requested size: 361.34999pt x 168.65167pt.
+ [14 <./figs/thermal_noise.png (PNG copy)>]
+<figs/thermal_rng_noise1.png, id=90, 216.81pt x 101.178pt>
+File: figs/thermal_rng_noise1.png Graphic file (type png)
+
+<use figs/thermal_rng_noise1.png>
+Package pdftex.def Info: figs/thermal_rng_noise1.png used on input line 31.
+(pdftex.def)             Requested size: 361.34999pt x 168.65167pt.
+
+<figs/thermal_rng_noise2.png, id=91, 216.81pt x 101.178pt>
+File: figs/thermal_rng_noise2.png Graphic file (type png)
+
+<use figs/thermal_rng_noise2.png>
+Package pdftex.def Info: figs/thermal_rng_noise2.png used on input line 36.
+(pdftex.def)             Requested size: 361.34999pt x 168.65167pt.
+ <figs/rtn.png, id=92, 216.81pt x 101.178pt>
+File: figs/rtn.png Graphic file (type png)
+
+<use figs/rtn.png>
+Package pdftex.def Info: figs/rtn.png used on input line 45.
+(pdftex.def)             Requested size: 361.34999pt x 168.65167pt.
+ <figs/rtn_freq_pstate.png, id=93, 216.81pt x 108.405pt>
+File: figs/rtn_freq_pstate.png Graphic file (type png)
+
+<use figs/rtn_freq_pstate.png>
+Package pdftex.def Info: figs/rtn_freq_pstate.png used on input line 61.
+(pdftex.def)             Requested size: 361.34999pt x 180.69824pt.
+
+<figs/rtn_freq_estate.png, id=94, 216.81pt x 108.405pt>
+File: figs/rtn_freq_estate.png Graphic file (type png)
+
+<use figs/rtn_freq_estate.png>
+Package pdftex.def Info: figs/rtn_freq_estate.png used on input line 66.
+(pdftex.def)             Requested size: 361.34999pt x 180.69824pt.
+ [15] [16 <./figs/thermal_rng_noise1.png (PNG copy)> <./figs/thermal_rng_noise2
+.png (PNG copy)>] (./tabs/overall_rng.tex
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ì in font pplr7t!
+)
+[17 <./figs/rtn.png (PNG copy)>] (./tabs/rtn_bit.tex
+Overfull \hbox (4.21457pt too wide) in paragraph at lines 5--34
+ [] 
+ []
+
+) [18 <./figs/rtn_freq_pstate.png (PNG copy)> <./figs/rtn_freq_estate.png (PNG 
+copy)>] [19] (./tabs/prg_rtn.tex) [20] (./tabs/to_bin_seq.tex) [21]
+<figs/flashtestboard.pdf, id=121, 216.81pt x 130.8087pt>
+File: figs/flashtestboard.pdf Graphic file (type pdf)
+
+<use figs/flashtestboard.pdf>
+Package pdftex.def Info: figs/flashtestboard.pdf used on input line 133.
+(pdftex.def)             Requested size: 361.34999pt x 218.04254pt.
+ [22] (./tabs/first_testedchips.tex)
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ô in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ú in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ù in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ô in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ú in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ù in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ú in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ù in font pplr7t!
+ [23 <./figs/flashtestboard.pdf>] (./tabs/nist.tex
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ô in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ú in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ù in font pplr7t!
+)
+Overfull \hbox (10.10555pt too wide) in paragraph at lines 2--171
+ [] 
+ []
+
+[24] [25] <figs/nist_result.png, id=137, 566.86781pt x 564.60938pt>
+File: figs/nist_result.png Graphic file (type png)
+
+<use figs/nist_result.png>
+Package pdftex.def Info: figs/nist_result.png used on input line 181.
+(pdftex.def)             Requested size: 361.34999pt x 359.91862pt.
+ [26]
+<figs/pure_rtn.png, id=141, 794.97pt x 256.70906pt>
+File: figs/pure_rtn.png Graphic file (type png)
+ <use figs/pure_rtn.png>
+Package pdftex.def Info: figs/pure_rtn.png used on input line 197.
+(pdftex.def)             Requested size: 361.34999pt x 116.6892pt.
+
+<figs/rtn_and_thermal.png, id=142, 788.9475pt x 264.99pt>
+File: figs/rtn_and_thermal.png Graphic file (type png)
+
+<use figs/rtn_and_thermal.png>
+Package pdftex.def Info: figs/rtn_and_thermal.png used on input line 208.
+(pdftex.def)             Requested size: 361.34999pt x 121.36719pt.
+ [27 <./figs/nist_result.png>]
+Missing character: There is no ¬ in font pplr7t!
+Missing character: There is no ∞ in font pplr7t!
+Missing character: There is no ¬ in font pplr7t!
+Missing character: There is no ∞ in font pplr7t!
+ [28 <./figs/pure_rtn.png> <./figs/rtn_and_thermal.png>]
+Missing character: There is no ¬ in font pplr7t!
+Missing character: There is no ∞ in font pplr7t!
+Missing character: There is no ¬ in font pplr7t!
+Missing character: There is no ∞ in font pplr7t!
+Missing character: There is no ¬ in font pplr7t!
+Missing character: There is no ∞ in font pplr7t!
+Missing character: There is no ¬ in font pplr7t!
+Missing character: There is no ∞ in font pplr7t!
+ [29]
+<figs/throughput_room_temp.png, id=152, 216.81pt x 108.405pt>
+File: figs/throughput_room_temp.png Graphic file (type png)
+
+<use figs/throughput_room_temp.png>
+Package pdftex.def Info: figs/throughput_room_temp.png used on input line 229.
+(pdftex.def)             Requested size: 361.34999pt x 180.69824pt.
+
+<figs/throughput_m5_temp.png, id=153, 216.81pt x 108.405pt>
+File: figs/throughput_m5_temp.png Graphic file (type png)
+
+<use figs/throughput_m5_temp.png>
+Package pdftex.def Info: figs/throughput_m5_temp.png used on input line 238.
+(pdftex.def)             Requested size: 361.34999pt x 180.69824pt.
+Missing character: There is no ¬ in font pplr7t!
+Missing character: There is no ∞ in font pplr7t!
+Missing character: There is no ¬ in font pplr7t!
+Missing character: There is no ∞ in font pplr7t!
+
+<figs/throughput_m80_temp.png, id=154, 216.81pt x 108.405pt>
+File: figs/throughput_m80_temp.png Graphic file (type png)
+
+<use figs/throughput_m80_temp.png>
+Package pdftex.def Info: figs/throughput_m80_temp.png used on input line 247.
+(pdftex.def)             Requested size: 361.34999pt x 180.69824pt.
+Missing character: There is no ¬ in font pplr7t!
+Missing character: There is no ∞ in font pplr7t!
+Missing character: There is no ¬ in font pplr7t!
+Missing character: There is no ∞ in font pplr7t!
+ [30 <./figs/throughput_room_temp.png (PNG copy)>] <figs/rtn_aging.png, id=158,
+ 861.2175pt x 108.405pt>
+File: figs/rtn_aging.png Graphic file (type png)
+
+<use figs/rtn_aging.png>
+Package pdftex.def Info: figs/rtn_aging.png used on input line 260.
+(pdftex.def)             Requested size: 361.34999pt x 45.48512pt.
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ú in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ù in font pplr7t!
+ [31 <./figs/throughput_m5_temp.png (PNG copy)> <./figs/throughput_m80_temp.png
+ (PNG copy)>] [32 <./figs/rtn_aging.png>] [33])
+[34] (./fingerprints.tex [35]
+Chapter 4.
+[36
+
+] (./tabs/extract_order.tex) [37]
+<figs/fprints_same_page.png, id=182, 216.81pt x 173.448pt>
+File: figs/fprints_same_page.png Graphic file (type png)
+
+<use figs/fprints_same_page.png>
+Package pdftex.def Info: figs/fprints_same_page.png used on input line 41.
+(pdftex.def)             Requested size: 361.34999pt x 289.11722pt.
+
+<figs/fprints_diff_page.png, id=183, 216.81pt x 173.448pt>
+File: figs/fprints_diff_page.png Graphic file (type png)
+
+<use figs/fprints_diff_page.png>
+Package pdftex.def Info: figs/fprints_diff_page.png used on input line 46.
+(pdftex.def)             Requested size: 361.34999pt x 289.11722pt.
+
+
+LaTeX Warning: Float too large for page by 38.7511pt on input line 49.
+
+[38] [39 <./figs/fprints_same_page.png (PNG copy)> <./figs/fprints_diff_page.pn
+g (PNG copy)>] (./tabs/gen_signature.tex)
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ì in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ì in font pplr7t!
+ [40]
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ì in font pplr7t!
+
+<figs/fprints_histo_diff_chip.png, id=194, 216.81pt x 108.405pt>
+File: figs/fprints_histo_diff_chip.png Graphic file (type png)
+
+<use figs/fprints_histo_diff_chip.png>
+Package pdftex.def Info: figs/fprints_histo_diff_chip.png used on input line 82
+.
+(pdftex.def)             Requested size: 361.34999pt x 180.69824pt.
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ì in font pplr7t!
+
+<figs/fprints_histo_diff_page.png, id=195, 216.81pt x 108.405pt>
+File: figs/fprints_histo_diff_page.png Graphic file (type png)
+
+<use figs/fprints_histo_diff_page.png>
+Package pdftex.def Info: figs/fprints_histo_diff_page.png used on input line 94
+.
+(pdftex.def)             Requested size: 361.34999pt x 180.69824pt.
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ô in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ô in font pplr7t!
+ [41] [42 <./figs/fprints_histo_diff_chip.png (PNG copy)> <./figs/fprints_histo
+_diff_page.png (PNG copy)>]
+<figs/fprints_histo_same_page.png, id=202, 216.81pt x 108.405pt>
+File: figs/fprints_histo_same_page.png Graphic file (type png)
+
+<use figs/fprints_histo_same_page.png>
+Package pdftex.def Info: figs/fprints_histo_same_page.png used on input line 10
+9.
+(pdftex.def)             Requested size: 361.34999pt x 180.69824pt.
+ [43 <./figs/fprints_histo_same_page.png (PNG copy)>] [44]
+Missing character: There is no ¬ in font pplr7t!
+Missing character: There is no ∞ in font pplr7t!
+Missing character: There is no ¬ in font pplr7t!
+Missing character: There is no ∞ in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ì in font pplr7t!
+ <figs/fprints_temp.png, id=211, 216.81pt x 122.859pt>
+File: figs/fprints_temp.png Graphic file (type png)
+
+<use figs/fprints_temp.png>
+Package pdftex.def Info: figs/fprints_temp.png used on input line 132.
+(pdftex.def)             Requested size: 361.34999pt x 204.79132pt.
+Missing character: There is no ¬ in font pplr7t!
+Missing character: There is no ∞ in font pplr7t!
+Missing character: There is no ¬ in font pplr7t!
+Missing character: There is no ∞ in font pplr7t!
+
+<figs/fprints_aging.png, id=212, 216.81pt x 122.859pt>
+File: figs/fprints_aging.png Graphic file (type png)
+
+<use figs/fprints_aging.png>
+Package pdftex.def Info: figs/fprints_aging.png used on input line 143.
+(pdftex.def)             Requested size: 361.34999pt x 204.79132pt.
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ô in font pplr7t!
+ [45] [46 <./figs/fprints_temp.png (PNG copy)> <./figs/fprints_aging.png (PNG c
+opy)>]
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ô in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ô in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ô in font pplr7t!
+ [47] [48]
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ô in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ô in font pplr7t!
+ [49]
+<figs/authentication_app.png, id=229, 585.68813pt x 301.125pt>
+File: figs/authentication_app.png Graphic file (type png)
+
+<use figs/authentication_app.png>
+Package pdftex.def Info: figs/authentication_app.png used on input line 182.
+(pdftex.def)             Requested size: 361.34999pt x 185.79039pt.
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ô in font pplr7t!
+ [50 <./figs/authentication_app.png>])
+[51] (./steg.tex [52]
+Chapter 5.
+(./overview.tex <figs/overview.pdf, id=239, 364.36125pt x 111.41624pt>
+File: figs/overview.pdf Graphic file (type pdf)
+
+<use figs/overview.pdf>
+Package pdftex.def Info: figs/overview.pdf used on input line 9.
+(pdftex.def)             Requested size: 469.75499pt x 143.64934pt.
+
+Overfull \hbox (50.58878pt too wide) in paragraph at lines 9--11
+ [] 
+ []
+
+[53
+
+] [54 <./figs/overview.pdf>]) (./scheme.tex [55]
+<figs/program_numbers_c1_5e3pe_block1_page0.png, id=259, 216.81pt x 144.54pt>
+File: figs/program_numbers_c1_5e3pe_block1_page0.png Graphic file (type png)
+
+<use figs/program_numbers_c1_5e3pe_block1_page0.png>
+Package pdftex.def Info: figs/program_numbers_c1_5e3pe_block1_page0.png used on
+ input line 21.
+(pdftex.def)             Requested size: 361.34999pt x 240.93098pt.
+
+<figs/hist_c1_block1_page1.png, id=260, 216.81pt x 144.54pt>
+File: figs/hist_c1_block1_page1.png Graphic file (type png)
+
+<use figs/hist_c1_block1_page1.png>
+Package pdftex.def Info: figs/hist_c1_block1_page1.png used on input line 31.
+(pdftex.def)             Requested size: 361.34999pt x 240.93098pt.
+ [56 <./figs/program_numbers_c1_5e3pe_block1_page0.png (PNG copy)>] [57 <./figs
+/hist_c1_block1_page1.png (PNG copy)>]
+<figs/5e3_histo_withkey.png, id=268, 216.81pt x 144.54pt>
+File: figs/5e3_histo_withkey.png Graphic file (type png)
+
+<use figs/5e3_histo_withkey.png>
+Package pdftex.def Info: figs/5e3_histo_withkey.png used on input line 101.
+(pdftex.def)             Requested size: 361.34999pt x 240.93098pt.
+ [58]
+<figs/5e3_histo_withoutkey.png, id=272, 216.81pt x 144.54pt>
+File: figs/5e3_histo_withoutkey.png Graphic file (type png)
+
+<use figs/5e3_histo_withoutkey.png>
+Package pdftex.def Info: figs/5e3_histo_withoutkey.png used on input line 125.
+(pdftex.def)             Requested size: 361.34999pt x 240.93098pt.
+ (./tabs/encodingalg.tex) [59 <./figs/5e3_histo_withkey.png (PNG copy)>] [60 <.
+/figs/5e3_histo_withoutkey.png (PNG copy)>]
+[61] (./tabs/decodingalg.tex
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 7.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 7.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 12.
+) [62] [63]) (./evaluation.tex [64]
+File: figs/flashtestboard.pdf Graphic file (type pdf)
+
+<use figs/flashtestboard.pdf>
+Package pdftex.def Info: figs/flashtestboard.pdf used on input line 16.
+(pdftex.def)             Requested size: 361.34999pt x 218.04254pt.
+ [65] (./tabs/testedchips.tex) [66]
+<figs/accuracy.png, id=300, 216.81pt x 144.54pt>
+File: figs/accuracy.png Graphic file (type png)
+ <use figs/accuracy.png>
+Package pdftex.def Info: figs/accuracy.png used on input line 233.
+(pdftex.def)             Requested size: 361.34999pt x 240.93098pt.
+
+[67 <./figs/accuracy.png (PNG copy)>]
+<figs/groupsize.png, id=305, 216.81pt x 144.54pt>
+File: figs/groupsize.png Graphic file (type png)
+ <use figs/groupsize.png>
+Package pdftex.def Info: figs/groupsize.png used on input line 259.
+(pdftex.def)             Requested size: 361.34999pt x 240.93098pt.
+
+<figs/page_intv.png, id=306, 216.81pt x 144.54pt>
+File: figs/page_intv.png Graphic file (type png)
+ <use figs/page_intv.png>
+Package pdftex.def Info: figs/page_intv.png used on input line 270.
+(pdftex.def)             Requested size: 361.34999pt x 240.93098pt.
+
+[68 <./figs/groupsize.png (PNG copy)>]
+<figs/initialstess.png, id=310, 216.81pt x 144.54pt>
+File: figs/initialstess.png Graphic file (type png)
+
+<use figs/initialstess.png>
+Package pdftex.def Info: figs/initialstess.png used on input line 299.
+(pdftex.def)             Requested size: 361.34999pt x 240.93098pt.
+ [69 <./figs/page_intv.png (PNG copy)>]
+(./tabs/retention.tex) [70 <./figs/initialstess.png (PNG copy)>] [71] [72]
+[73] [74] <figs/programtime_block.png, id=330, 216.81pt x 144.54pt>
+File: figs/programtime_block.png Graphic file (type png)
+
+<use figs/programtime_block.png>
+Package pdftex.def Info: figs/programtime_block.png used on input line 628.
+(pdftex.def)             Requested size: 361.34999pt x 240.93098pt.
+
+<figs/programtime_hist.png, id=332, 677.53125pt x 857.45343pt>
+File: figs/programtime_hist.png Graphic file (type png)
+
+<use figs/programtime_hist.png>
+Package pdftex.def Info: figs/programtime_hist.png used on input line 639.
+(pdftex.def)             Requested size: 361.34999pt x 457.32655pt.
+ [75] [76 <./figs/programtime_block.png>]
+[77 <./figs/programtime_hist.png>]
+<figs/erasetime_block.png, id=344, 216.81pt x 144.54pt>
+File: figs/erasetime_block.png Graphic file (type png)
+
+<use figs/erasetime_block.png>
+Package pdftex.def Info: figs/erasetime_block.png used on input line 742.
+(pdftex.def)             Requested size: 361.34999pt x 240.93098pt.
+
+<figs/erasetime_hist.png, id=345, 677.53125pt x 856.70062pt>
+File: figs/erasetime_hist.png Graphic file (type png)
+
+<use figs/erasetime_hist.png>
+Package pdftex.def Info: figs/erasetime_hist.png used on input line 753.
+(pdftex.def)             Requested size: 361.34999pt x 456.92505pt.
+
+Underfull \hbox (badness 2644) in paragraph at lines 817--827
+[]\OT1/ppl/m/n/12 For the SVM ex-per-i-ments, we con-structed mul-ti-ple data s
+ets us-ing
+ []
+
+[78 <./figs/erasetime_block.png>] [79 <./figs/erasetime_hist.png>]
+<figs/per_page_svm.png, id=355, 216.81pt x 144.54pt>
+File: figs/per_page_svm.png Graphic file (type png)
+
+<use figs/per_page_svm.png>
+Package pdftex.def Info: figs/per_page_svm.png used on input line 831.
+(pdftex.def)             Requested size: 361.34999pt x 240.93098pt.
+
+<figs/per_block_svm.png, id=356, 216.81pt x 144.54pt>
+File: figs/per_block_svm.png Graphic file (type png)
+
+<use figs/per_block_svm.png>
+Package pdftex.def Info: figs/per_block_svm.png used on input line 842.
+(pdftex.def)             Requested size: 361.34999pt x 240.93098pt.
+ [80 <./figs/per_page_svm.png>] [81 <./figs/per_block_svm.png>] [82] <figs/hist
+o_compare.png, id=368, 216.81pt x 144.54pt>
+File: figs/histo_compare.png Graphic file (type png)
+
+<use figs/histo_compare.png>
+Package pdftex.def Info: figs/histo_compare.png used on input line 1131.
+(pdftex.def)             Requested size: 361.34999pt x 240.93098pt.
+ [83] [84 <./figs/histo_compare.png (PNG copy)>]
+<figs/svm_rawdata.png, id=375, 216.81pt x 144.54pt>
+File: figs/svm_rawdata.png Graphic file (type png)
+ <use figs/svm_rawdata.png>
+Package pdftex.def Info: figs/svm_rawdata.png used on input line 1172.
+(pdftex.def)             Requested size: 361.34999pt x 240.93098pt.
+
+<figs/svm_stat_moments.png, id=376, 216.81pt x 144.54pt>
+File: figs/svm_stat_moments.png Graphic file (type png)
+
+<use figs/svm_stat_moments.png>
+Package pdftex.def Info: figs/svm_stat_moments.png used on input line 1181.
+(pdftex.def)             Requested size: 361.34999pt x 240.93098pt.
+ [85] [86 <./figs/svm_rawdata.png (PNG copy)> <./figs/svm_stat_moments.png (PNG
+ copy)>]
+<figs/roc2500128.png, id=385, 493.0922pt x 376.40625pt>
+File: figs/roc2500128.png Graphic file (type png)
+
+<use figs/roc2500128.png>
+Package pdftex.def Info: figs/roc2500128.png used on input line 1219.
+(pdftex.def)             Requested size: 361.34999pt x 275.85405pt.
+ [87 <./figs/roc2500128.png>]
+<figs/group_accuaracy.png, id=390, 216.81pt x 144.54pt>
+File: figs/group_accuaracy.png Graphic file (type png)
+
+<use figs/group_accuaracy.png>
+Package pdftex.def Info: figs/group_accuaracy.png used on input line 1272.
+(pdftex.def)             Requested size: 361.34999pt x 240.93098pt.
+ [88 <./figs/group_accuaracy.png (PNG copy)>]
+<figs/post_pe.png, id=394, 216.81pt x 144.54pt>
+File: figs/post_pe.png Graphic file (type png)
+ <use figs/post_pe.png>
+Package pdftex.def Info: figs/post_pe.png used on input line 1312.
+(pdftex.def)             Requested size: 361.34999pt x 240.93098pt.
+ [89]
+[90 <./figs/post_pe.png (PNG copy)>]) (./related.tex [91] [92] [93]))
+(./conclusion.tex [94]
+Chapter 6.
+[95
+
+]) (./sampleThesis.bbl [96]
+Missing character: There is no ∆ in font pplr7t!
+Missing character: There is no í in font pplr7t!
+ [97
+
+]
+Underfull \hbox (badness 1348) in paragraph at lines 88--93
+[]\OT1/ppl/m/n/12 John H Scofield, Nick Bor-land, and DM Fleet-wood.  Temperatu
+re-
+ []
+
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ô in font pplr7t!
+
+Underfull \hbox (badness 1348) in paragraph at lines 114--119
+\OT1/ppl/m/n/12 adap-tive feed-back con-trol.  In \OT1/ppl/m/it/12 Cryp-to-grap
+hic Hard-ware and Em-bed-ded
+ []
+
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ô in font pplr7t!
+[98] [99]
+Underfull \hbox (badness 5592) in paragraph at lines 192--197
+[]\OT1/ppl/m/n/12 Chih-Chung Chang and Chih-Jen Lin.  LIB-SVM: A li-brary for
+ []
+
+
+Underfull \hbox (badness 7291) in paragraph at lines 192--197
+\OT1/ppl/m/n/12 sup-port vec-tor ma-chines.  \OT1/ppl/m/it/12 ACM Trans-ac-tion
+s on In-tel-li-gent Sys-
+ []
+
+
+Underfull \hbox (badness 8075) in paragraph at lines 192--197
+\OT1/ppl/m/it/12 tems and Tech-nol-ogy\OT1/ppl/m/n/12 , 2:27:1--27:27, 2011.  S
+oft-ware avail-able at
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 221--224
+[]\OT1/ppl/m/n/12 Iain Suther-land, Gareth Davies, and An-drew Blyth.  Mal-ware
+ and
+ []
+
+) [100] (./sampleThesis.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 5638 strings out of 495031
+ 85170 string characters out of 6181530
+ 172443 words of memory out of 5000000
+ 8623 multiletter control sequences out of 15000+600000
+ 15206 words of font info for 40 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 38i,12n,51p,1541b,516s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on sampleThesis.pdf (112 pages, 1243248 bytes).
+PDF statistics:
+ 478 PDF objects out of 1000 (max. 8388607)
+ 292 compressed objects within 3 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 221 words of extra memory for PDF output out of 10000 (max. 10000000)
+

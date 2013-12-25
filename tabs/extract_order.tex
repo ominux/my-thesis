@@ -1,0 +1,36 @@
+
+%\begin{scriptsize}
+\begin{center}
+
+\begin{tabular}{|c|}
+\hline
+\begin{minipage}[t]{3.2in}
+
+
+
+\begin{tabbing}
+{\bf Algorithm V  Extract the order in which bits in a page }
+\\ {\bf reach the programmed state. }
+\\
+\\ Choose a partial programming time T (below the 
+\\ rated program time). 
+\\
+\\ Nbits = number of bits in one page
+\\ Order = 1; 
+\\ Initialize BitRank[Nbits] to 0.
+\\
+\\ {\bf do} \= \{
+\\ \>    Partially program a page for T;
+\\ \>    {\bf For} \= all programmed bits {\bf do}
+\\ \>\>        BitRank[programmed bit] = Order;
+\\ \>    {\bf End for}
+\\ \>    Order = Order + 1;
+\\ \} repeat until most (99\%) bits in the page are programmed 
+
+
+\end{tabbing}
+\end{minipage}
+\\ \hline
+\end{tabular}
+\end{center}
+%\end{scriptsize}

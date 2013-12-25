@@ -1,0 +1,41 @@
+
+%\begin{scriptsize}
+\begin{center}
+
+\begin{tabular}{|c|}
+\hline
+\begin{minipage}[t]{3.2in}
+
+
+
+\begin{tabbing}
+{\bf Algorithm I: Encoding }
+\\
+\\\emph{Part A -- Composing the message}
+\\ 1 Fo\=r each selected page in a block
+\\ 2 \>Generate the group for each message bit via the page hiding key
+\\ 3 \>Assign each group 0 or 1 according to the embedded data
+\\ 4 \>Fo\=r each bit
+\\ 5 \>\>If\=\ its group will represent a message "1"
+\\ 6 \>\>\>      Set it to be programmed 0
+\\ 7 \>\>    Else
+\\ 8 \>\>\>      Set it to be programmed 1
+\\ 9 \>\>   End if
+\\10 \>End for
+\\11 End for
+\\
+\\\emph{Part B -- Writing the message to Flash}	
+\\1 For each selected block
+\\2 \>  For $i=1,2,..,N$ ($N$ is the number of Hiding PE cycles)
+\\3 \>\>  Erase the block
+\\4 \>\> Program every selected page
+\\5 \>End for
+\\6 End for
+
+
+\end{tabbing}
+\end{minipage}
+\\ \hline
+\end{tabular}
+\end{center}
+%\end{scriptsize}

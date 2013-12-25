@@ -1,0 +1,43 @@
+
+%\begin{scriptsize}
+\begin{center}
+
+\begin{tabular}{|c|}
+\hline
+\begin{minipage}[t]{3.2in}
+
+
+
+\begin{tabbing}
+{\bf Algorithm I  Overall Flash RNG algorithm }
+\\
+\\ Erase a block;
+\\
+\\ Num = 0;
+\\ do \=
+\\ \>Partially program a page for T;
+\\ \>Num++;
+\\
+\\ \>Read Nbytes in a page N times, and record a 
+\\ \>trace for each bit – trace[bit];
+\\ \>{\bf For} \= each bit in Nbytes, not selected yet
+\\ \>\>{\bf    If} \= (CheckRTN(trace[bit]) == true) 
+\\ \>\>\>          Selected[bit] = yes;
+\\ \>\>\>          NumProgram[bit] = Num;
+\\ \>{\bf End for}
+\\ \> repeat until most bits are programmed.
+\\
+\\ ProgramSelectBits(Selected);
+\\
+\\ Read selected bits M times, and record up-time and down-time;
+\\ {\bf For} \= each bit
+\\ \>      ConvertToBinary(rawdata);
+\\ {\bf End for}
+
+
+\end{tabbing}
+\end{minipage}
+\\ \hline
+\end{tabular}
+\end{center}
+%\end{scriptsize}

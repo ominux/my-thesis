@@ -1,0 +1,35 @@
+
+%\begin{scriptsize}
+\begin{center}
+
+\begin{tabular}{|c|}
+\hline
+\begin{minipage}[t]{3.2in}
+
+
+
+\begin{tabbing}
+{\bf Algorithm II  Determine whether there is RTN in a bit }
+\\
+\\ {\bf If} \= trace[bit] has over 98\% 1/0s
+\\ \>        {\bf Return} false;
+\\ {\bf End if} 
+\\
+\\ Calculate the power spectrum density (PSD);
+\\ Convert PSD to the log scale in both x-y;
+
+\\ {\bf If} \= PSD slope is always $< T_{slope}$ for all high frequency ($> T_{freq}$)
+\\ \> {\bf Return} RTN
+\\ {\bf End if} 
+\\
+\\ {\bf If} \= PSD slope is $< T_{slope}$ at least one interval (Invl) at a high frequency ($> T_{freq}$)
+\\ \> {\bf Return} RTN-Thermal
+\\ {\bf End if}
+
+
+\end{tabbing}
+\end{minipage}
+\\ \hline
+\end{tabular}
+\end{center}
+%\end{scriptsize}

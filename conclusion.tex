@@ -1,0 +1,27 @@
+\chapter{Conclusion}
+\label{sec:conclusion}
+
+In this work, we show that unmodified Flash chips are capable of providing two important security functions: high-quality true random number generation and the provision of many digital fingerprints. Using thermal noise and random telegraph noise, random numbers can be generated at up to 10Kbit per second for each Flash bit and pass all NIST randomness tests. An authentication scheme with fingerprints derived from partial programming of pages on the Flash chip show high robustness and uniqueness. The authentication scheme was tested over 24 pages with 24 different instances of a Flash chip and showed clear separation. A Flash chip can provide many unique fingerprints that remain distinguishable in various temperature and aged conditions. Both random number generation and fingerprint generation require no hardware change to commercial Flash chips. Because Flash chips are ubiquitous, the proposed techniques have a potential to be widely deployed to many existing electronic device though a firmware update or software change.
+
+We also demonstrate a technique to hide information
+using the program time of individual bits in Flash memory. 
+Program time is an analog characteristic of Flash and is
+not visible from digital content, does not affect normal
+memory operation, and survives Flash data erasure. 
+Measuring program time can be done over the 
+standard Flash interface (with no hardware modification) via
+partial programming. Using groups of bits to store one bit
+of payload allows the technique to effectively hide information
+robustly with low bit error rates, and makes detection difficult 
+to prove unless one knows the hiding key. Without the key,
+measuring analog characteristics of the Flash chip reveals
+nothing that cannot be explained by normal wear or manufacturing
+variation. We note that retaining a copy of the entire analog characteristics
+of the Flash memory %(i.e. the entire cover text) 
+requires a large amount of time.
+%, a defining trait of this
+%technique.
+
+
+% the large variation in program times allows us
+% leeway to hide in the noise?
